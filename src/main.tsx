@@ -12,6 +12,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <Root />,
     children: [
+      { index: true, element: <PlantList /> },
       {
         path: "/watering-schedule",
         element: <WateringSchedule />,
@@ -20,9 +21,8 @@ const router = createBrowserRouter([
         path: "/plants",
         element: <PlantList />,
       },
-    ]
+    ],
   },
-  
 ]);
 
 const root = ReactDOM.createRoot(
