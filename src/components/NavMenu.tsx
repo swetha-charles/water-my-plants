@@ -1,12 +1,15 @@
+import { Link } from "react-router-dom";
 import classes from "./NavMenu.module.css";
 
 export default function NavMenu() {
   return (
-    <div className={classes.navMenu}>
+    <nav className={classes.navMenu}>
       <ul className={classes.linkList}>
-        <div>My Plants</div>
-        <div>Watering Schedule</div>
+        <li>
+          <Link to={"/plants"}>Plants</Link>
+        </li>
+        <li><Link to={'/watering-schedule'}>Watering Schedule</Link></li>
       </ul>
-    </div>
+    </nav>
   );
 }

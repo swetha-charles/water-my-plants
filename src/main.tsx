@@ -1,7 +1,29 @@
 import { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
-import App from "./components/App";
-import './index.css'
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+import Root from "./components/Root";
+import "./index.css";
+import WateringSchedule from "./components/WateringSchedule";
+import PlantList from "./components/PlantList";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+    children: [
+      {
+        path: "/watering-schedule",
+        element: <WateringSchedule />,
+      },
+      {
+        path: "/plants",
+        element: <PlantList />,
+      },
+    ]
+  },
+  
+]);
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -9,6 +31,6 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </StrictMode>
 );
