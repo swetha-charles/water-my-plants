@@ -8,3 +8,6 @@ Currently in progress!!
 ### Tech
 
 Done using React, Typescript and Vite
+
+### Next
+- Add ability to click on plant!x

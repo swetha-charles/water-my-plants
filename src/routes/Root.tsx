@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import Header from "./Header";
-import NavMenu from "./NavMenu";
+import Header from "../components/Header";
+import NavMenu from "../components/NavMenu";
 
 export default function Root() {
   return (

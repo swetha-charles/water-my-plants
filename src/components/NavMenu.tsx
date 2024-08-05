@@ -9,7 +9,7 @@ export default function NavMenu() {
           <Link className={classes.link} to={"/plants"}>Plants</Link>
         </li>
         <li><Link className={classes.link}  to={'/watering-schedule'}>Watering Schedule</Link></li>
-        <button>Add new plant</button>
+        <li><Link className={classes.link}  to={'/add-new-plant'}>Add new plant</Link></li>
       </ul>
     </nav>
   );

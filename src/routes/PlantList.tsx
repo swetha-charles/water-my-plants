@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Plant from "./Plant";
+import Plant from "./../components/Plant";
 import classes from "./PlantList.module.css";
 
 type PlantType = {

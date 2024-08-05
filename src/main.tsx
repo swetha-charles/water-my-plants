@@ -2,10 +2,10 @@ import { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import Root from "./components/Root";
+import Root from "./routes/Root";
 import "./index.css";
-import WateringSchedule from "./components/WateringSchedule";
-import PlantList from "./components/PlantList";
+import WateringSchedule from "./routes/WateringSchedule";
+import PlantList from "./routes/PlantList";
 
 const router = createBrowserRouter([
   {
