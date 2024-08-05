@@ -1,0 +1,13 @@
+.navMenu {
+    background-color: rgb(246, 216, 177);
+}
+
+.linkList {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px
+}
