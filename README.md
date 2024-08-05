@@ -1,4 +1,4 @@
-## A Basic React journal app
+## README for Water my plants
 
 A basic react app in typescript which allows you to add plants and get notifications on when to water them 
 
