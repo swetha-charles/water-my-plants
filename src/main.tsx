@@ -6,20 +6,26 @@ import Root from "./routes/Root";
 import "./index.css";
 import WateringSchedule from "./routes/WateringSchedule";
 import PlantList from "./routes/PlantList";
+import PlantDetail from "./routes/PlantDetail";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
     children: [
-      { index: true, element: <PlantList /> },
+      {
+        path: "/",
+        element: <PlantList />,
+        children: [
+          {
+            path: "/:plantId",
+            element: <PlantDetail />,
+          },
+        ],
+      },
       {
         path: "/watering-schedule",
         element: <WateringSchedule />,
-      },
-      {
-        path: "/plants",
-        element: <PlantList />,
       },
     ],
   },
