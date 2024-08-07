@@ -1,16 +1,17 @@
 .navMenu {
-    background-color: rgb(246, 216, 177);
+  background-color: rgb(246, 216, 177);
 }
 
 .linkList {
-    display: flex;
-    margin: 0;
-    list-style: none;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px
+  display: flex;
+  margin: 0;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
 }
 
-.link {
-    text-decoration: none;
+.linkList a {
+  text-decoration: none;
+  color: inherit;
 }
