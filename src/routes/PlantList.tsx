@@ -3,7 +3,6 @@ import Plant from "./../components/Plant";
 import classes from "./PlantList.module.css";
 import { PlantProps } from "./../components/Plant";
 import { Outlet } from "react-router-dom";
-import AddPlantButton from "../components/AddPlantButton";
 
 export default function PlantList() {
   const [plants, setPlants] = useState<PlantProps[]>([]);
