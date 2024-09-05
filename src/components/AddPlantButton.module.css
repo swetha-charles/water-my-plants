@@ -1,0 +1,26 @@
+.addPlantButton {
+  background-color: olivedrab;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.9rem;
+  box-shadow: none;
+  font-family: inherit;
+  font-size: medium;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.addPlantButton:hover {
+  background-color: #476116;
+}
+
+.addPlantButton:active {
+  background-color: #394e11;
+  box-shadow: none;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+}

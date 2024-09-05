@@ -7,6 +7,7 @@ import "./index.css";
 import WateringSchedule from "./routes/WateringSchedule";
 import PlantList from "./routes/PlantList";
 import PlantDetail from "./routes/PlantDetail";
+import NewPlant from "./routes/NewPlant";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
             path: "/:plantId",
             element: <PlantDetail />,
           },
+          {
+            path: "/add-new-plant",
+            element: <NewPlant />
+          }
         ],
       },
       {

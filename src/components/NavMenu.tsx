@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import classes from "./NavMenu.module.css";
+import AddPlantButton from "./AddPlantButton";
 
 export default function NavMenu() {
   return (
@@ -12,7 +13,9 @@ export default function NavMenu() {
           <Link to={"/watering-schedule"}>Watering Schedule</Link>
         </li>
         <li>
-          <Link to={"/add-new-plant"}>Add new plant</Link>
+          <Link to={"/add-new-plant"}>
+            <AddPlantButton />
+          </Link>
         </li>
       </ul>
     </nav>

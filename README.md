@@ -10,4 +10,5 @@ Currently in progress!!
 Done using React, Typescript and Vite
 
 ### Next
-- Add ability to click on plant!x
+- [x] Add new plant button
+- [] Make above button functional!
