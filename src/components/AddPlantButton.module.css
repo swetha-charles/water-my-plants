@@ -12,11 +12,11 @@
 }
 
 .addPlantButton:hover {
-  background-color: #476116;
+  background-color: #516f1a;
 }
 
 .addPlantButton:active {
-  background-color: #394e11;
+  background-color: #445d14;
   box-shadow: none;
 }
 
