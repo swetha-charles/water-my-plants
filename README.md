@@ -11,5 +11,5 @@ Done using React, Typescript and Vite
 
 ### Next
 - [x] Add new plant button
-- [] Make above button functional!
 - [x] Make header fixed
+- [~] Add form to add new plant

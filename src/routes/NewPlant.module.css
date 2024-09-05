@@ -1,0 +1,16 @@
+.newPlantForm {
+    width: 400px;
+    padding: 1.5rem;
+    margin: 1rem;
+    text-align: left;
+    display: table
+}
+
+.newPlantDetail {
+    display: table-row
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 1rem;
+}
