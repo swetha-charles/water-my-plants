@@ -17,7 +17,7 @@ export default function PlantDetail() {
 
     getPlant()
       .then((plant) => setPlant(plant))
-      .catch((e) => setPlant(undefined));
+      .catch((_) => setPlant(undefined));
   }, []);
 
   if (!plant) {
