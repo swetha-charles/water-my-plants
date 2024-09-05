@@ -1,5 +1,6 @@
 .navMenu {
   background-color: rgb(246, 216, 177);
+  margin-top: 100px; /* matches height of header*/
 }
 
 .linkList {

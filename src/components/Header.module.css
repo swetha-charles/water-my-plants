@@ -1,13 +1,17 @@
 header {
-    width: 100%;
-    background-color: darkolivegreen;
-    font-family: Gill Sans, sans-serif;
-
+  width: 100%;
+  background-color: darkolivegreen;
+  font-family: Gill Sans, sans-serif;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  height: 100px;
 }
 
 .heading {
-    margin: 0px;
-    text-align: center;
-    padding: 30px;
-    color: antiquewhite
+  margin: 0px;
+  text-align: center;
+  padding: 30px;
+  color: antiquewhite;
 }

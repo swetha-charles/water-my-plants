@@ -12,3 +12,4 @@ Done using React, Typescript and Vite
 ### Next
 - [x] Add new plant button
 - [] Make above button functional!
+- [x] Make header fixed
